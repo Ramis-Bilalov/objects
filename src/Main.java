@@ -13,5 +13,12 @@ public class Main {
 
         System.out.println("Год издания книги " + book1.getBookTitle() + " после изменения даты: " + book1.getPublicationYear());
 
+        String s = joann.toString();
+        String s1 = book1.toString();
+        System.out.println("\n---Проверка toString объекта Author---\n" + s + "\n");
+
+        System.out.println("\n---Проверка toString объекта Book---\n" + s1 + "\n");
+
+
     }
 }
